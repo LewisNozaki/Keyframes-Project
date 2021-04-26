@@ -38,7 +38,7 @@ body {
 .greetings {
   position: absolute;
   width: 100%;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   text-align: center;
   font-size: 3.5em;
   padding: 2em;
@@ -72,18 +72,17 @@ body {
 }
 
 /* Clouds */
+/* calc(var(--scroll) * -1s) */
 
 .cloud-container {
   width: 100%;
   position: absolute;
-  border: 3px solid blue;
   z-index: 3;
 }
 
 .left-clouds,
 .right-clouds,
 .center-cloud {
-  border: 1px solid white;
   width: 100%;
   max-width: 700px;
   height: 250px;
@@ -95,10 +94,8 @@ body {
   align-items: center;
   top: 0;
   transition: all 1s ease-in-out;
-  animation: moveCloudRow1 10s forwards;
+  animation: moveCloudRow1 5s forwards;
 }
-
-/* calc(var(--scroll) * -1s) */
 
 @keyframes moveCloudRow1 {
   100% {
@@ -116,8 +113,7 @@ body {
 
 @keyframes moveCloudRow2 {
   100% {
-    top: 150px;
-    justify-content: space-between;
+    top: 200px;
   }
 }
 
@@ -129,9 +125,9 @@ body {
   animation: moveCloudRow3 10s forwards;
 }
 
-@keyframes moveCloudRow1 {
+@keyframes moveCloudRow3 {
   100% {
-    top: 100px;
+    top: 300px;
   }
 }
 
@@ -164,7 +160,7 @@ body {
   background-repeat: no-repeat;
   background-color: transparent;
   float: left;
-  margin-left: 50px;
+  margin-left: 100px;
   transition: all 1s ease-in-out;
   animation: moveCloudleft2 5s forwards;
 } 
@@ -181,6 +177,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
+  float: left;
+  margin-left: 300px;
+  transition: all 1s ease-in-out;
+  animation: moveCloudleft3 5s forwards;
+}
+
+@keyframes moveCloudleft3 {
+  100% {
+    margin-left: 0;
+  }
 }
 
 .right-1 {
@@ -198,7 +204,7 @@ body {
   background-repeat: no-repeat;
   background-color: transparent;
   float: right;
-  margin-right: 50px;
+  margin-right: 100px;
   transition: all 1s ease-in-out;
   animation: moveCloudRight2 5s forwards;
 }
@@ -215,6 +221,16 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
+  float: right;
+  margin-right: 300px;
+  transition: all 1s ease-in-out;
+  animation: moveCloudRight3 5s forwards;
+}
+
+@keyframes moveCloudRight3 {
+  100% {
+    margin-right: 0;
+  }
 }
 
 .center-cloud {
