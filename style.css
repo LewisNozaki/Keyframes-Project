@@ -38,13 +38,22 @@ body {
 .greetings {
   position: absolute;
   width: 100%;
-  /* border: 1px solid yellow; */
   text-align: center;
-  font-size: 4.5em;
+  font-size: 3.5em;
   padding: 2em;
   padding-top: 2.5em;
   color: rgb(215, 234, 254);
-  z-index: 1;
+  z-index: 1;  
+  opacity: 0.3;
+  transition: all 1s ease-in-out;
+  animation: greetingsAnim 5s forwards;
+}
+
+@keyframes greetingsAnim {
+  100% {
+    font-size: 5em;
+    opacity: 1;
+  }
 }
 
 /* Moon */
@@ -176,7 +185,6 @@ body {
 /* Row 3 */
 
 .row-3 {
-  border: 1px solid blue;
   top: 200px;
   transition: all 1s ease-in-out;
   animation: moveCloudRow3 5s forwards;
@@ -190,7 +198,6 @@ body {
 }
 
 .left-3 {
-  border: 1px solid white;
   background-image: url(assets/left-3.svg);
   background-size: contain;
   background-position: center;
@@ -209,7 +216,6 @@ body {
 }
 
 .right-3 {
-  border: 1px solid white;
   background-image: url(assets/right-3.svg);
   background-size: contain;
   background-position: center;
