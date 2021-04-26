@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" viewBox="0 0 400 400">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="SnapToGrid" value="1"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="SnapToGuides" value="0"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="New" value="1"/>
+</metadata>
+<defs/>
+<g id="Layer 10 Copy" vectornator:layerName="Layer 10 Copy">
+<path d="M247.55+245.334C243.836+247.817+207.126+277.984+167.899+264.119C158.535+260.809+138.707+253.354+128.227+219.793C123.452+204.5+104.889+230.909+97.908+201.259C91.8136+175.375+116.342+153.414+151.534+152.454C184.768+151.547+222.663+166.85+249.09+175.926C268.726+182.671+311.477+161.12+300.279+181.064C288.87+201.385+250.859+243.123+247.55+245.334Z" opacity="1" fill="#c15a4e"/>
+<path d="M313.717+167.759C296.301+172.579+299.169+173.989+282.878+183.527C266.587+193.064+248.871+206.224+222.874+208.59C196.877+210.956+181.308+198.194+158.377+202.837C147.186+205.104+150.273+203.294+110.278+214.363C132.68+212.034+131.966+218.701+155.259+221.977C192.034+227.149+212.323+221.926+243.665+213.252C264.719+207.425+295.917+182.099+313.717+167.759Z" opacity="1" fill="#000000"/>
+</g>
+<g id="Layer 11 Copy" vectornator:layerName="Layer 11 Copy" visibility="hidden">
+<path d="M246.159+272.025C226.863+283.327+204.865+299.053+166.363+282.656C142.28+272.399+141.505+247.151+131.025+213.59C126.249+198.297+107.687+224.706+100.705+195.056C94.6109+169.172+122.869+152.56+158.06+151.6C185.183+150.86+235.071+173.943+239.931+175.613C259.567+182.357+276.644+184.61+292.283+173.757C307.923+162.905+263.381+261.938+246.159+272.025Z" opacity="1" fill="#c15a4e"/>
+<path d="M298.609+173.086C291.993+174.917+284.061+185.851+268.89+191.059C227.275+205.345+220.007+201.168+203.886+202.636C177.888+205.002+172.441+200.724+159.872+200.133C147.302+199.543+143.407+200.524+124.029+207.355C141.572+201.832+152.531+243.564+174.737+247.607C187.326+249.899+203.076+249.426+216.598+241.763C247.82+224.069+280.809+187.426+298.609+173.086Z" opacity="1" fill="#000000"/>
+</g>
+</svg>
